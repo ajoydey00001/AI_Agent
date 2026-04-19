@@ -53,7 +53,7 @@ Main technologies used across the workspace:
 
 Install these before running projects:
 
-1. Python 3.10 or newer
+1. Python 3.10+
 2. Git
 3. SQLite CLI (recommended)
 4. A valid API key and endpoint for an OpenAI-compatible model provider
