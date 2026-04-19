@@ -4,7 +4,7 @@ This repository is a multi-project workspace for learning and building AI agents
 
 It contains:
 
-1. A tabular data chatbot project (Q&A + RAG over SQL, CSV, XLSX, ChromaDB).
+1. A tabular data chatbot project (Q&A + RAG over SQL, CSV, XLSX).
 2. A travel-agent project (OpenAI Agents SDK examples, FastAPI API, Streamlit UI).
 3. Notebook-based learning modules for RAG, tools, memory, and image/audio demos.
 
