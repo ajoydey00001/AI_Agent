@@ -47,7 +47,7 @@ Main technologies used across the workspace:
 - OpenAI Agents SDK (`openai-agents`)
 - FastAPI + Uvicorn
 - Streamlit
-- Jupyter notebooks for exploration
+- Jupyter notebooks for exploration and easy to maintain
 
 ## Prerequisites
 
