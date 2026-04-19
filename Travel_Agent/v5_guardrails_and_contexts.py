@@ -64,6 +64,7 @@ class TravelPlan(BaseModel):
     budget: float
     activities: List[str] = Field(description="List of recommended activities")
     notes: str = Field(description="Additional notes or recommendations")
+
 # Gaurdrail, User -> I want to visit London for a week with a budget of $100. What activities do you recommend based on the weather?
 class BudgetAnalysis(BaseModel):
     is_realistic: bool
