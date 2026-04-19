@@ -27,7 +27,7 @@ The goal of this README is to help a new developer get productive quickly.
 
 Top-level folders:
 
-- `Agent-Database-Interaction/`: Gradio app for SQL Q&A and RAG over tabular data.
+- `Agent-Database-Interaction/`: Gradio app for LLM , SQL Q&A and RAG over tabular data.
 - `Travel_Agent/`: OpenAI Agents SDK examples with FastAPI and Streamlit interfaces.
 - `RAG/`: RAG learning notebooks.
 - `Memory/`: memory/vector DB learning notebooks.
