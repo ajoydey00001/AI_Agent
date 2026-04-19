@@ -60,6 +60,7 @@ def test_travel_agent_api():
         print(f"Error: {response.text}")
     
     # Test 5: Hotel query
+
     print("\n5. Testing hotel query...")
     hotel_query = {
         "query": "Find me a hotel in Paris with a pool for under $300 per night"
@@ -83,6 +84,7 @@ def test_travel_agent_api():
         print(f"Error: {response.text}")
     
     # Test 6: General travel query
+
     print("\n6. Testing general travel query...")
     travel_query = {
         "query": "I want to plan a 5-day trip to Tokyo with a budget of $2000"
@@ -106,6 +108,7 @@ def test_travel_agent_api():
         print(f"Error: {response.text}")
     
     print("\n" + "=" * 50)
+    
     print("✅ Testing completed!")
 
 if __name__ == "__main__":
