@@ -11,6 +11,7 @@ from openai import AsyncOpenAI
 from agents import Agent, OpenAIChatCompletionsModel, Runner, function_tool, set_tracing_disabled, Runner, ModelSettings, InputGuardrail, GuardrailFunctionOutput,InputGuardrailResult,RunContextWrapper,InputGuardrailTripwireTriggered
 import logfire
 
+
 logfire.configure()
 logfire.instrument_openai_agents()
 
@@ -31,6 +32,8 @@ if not BASE_URL or not API_KEY or not MODEL_NAME:
 
 client = AsyncOpenAI(base_url=BASE_URL, api_key=API_KEY)
 set_tracing_disabled(disabled=True)
+
+# whats new in this version:
 #input guardrail to validate user input
 # Gaurdrail, User -> I want to visit London for a week with a budget of $100. What activities do you recommend based on the weather?
 # User -> Gaurd
