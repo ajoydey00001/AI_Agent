@@ -3,6 +3,7 @@ import json
 import time
 
 # Test script for the FastAPI Travel Agent
+
 def test_travel_agent_api():
     """Test the FastAPI Travel Agent endpoints"""
     
